@@ -20,7 +20,7 @@ Its very easy to connect Terraform with AWS. Run aws configure command and provi
 Clone the repository and Run *terraform init*. This will intialize the terraform environment for you and download the modules, providers and other configuration required.
 
 Optionally review the terraform configuration
-Run terraform plan to see the configuration it creates when executed.
+Run *terraform plan* to see the configuration it creates when executed.
 
 Finally, Apply terraform configuation to create EKS cluster with VPC
-terraform apply
+*terraform apply*
